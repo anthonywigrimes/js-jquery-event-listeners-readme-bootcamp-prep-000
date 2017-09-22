@@ -1,7 +1,7 @@
 //define functions here
 function getIt () {
     $('p').on('click', function () {
-        document.alert('Hey!');
+        alert('Hey!');
     });
 }
 
@@ -14,7 +14,7 @@ function frameIt () {
 function pressIt () {
     $('#typing').on('keydown', function (key) {
         if (key.which == 71) {
-            document.alert('The G key has been pressed');
+            alert('The G key has been pressed');
         }
     });
 }
