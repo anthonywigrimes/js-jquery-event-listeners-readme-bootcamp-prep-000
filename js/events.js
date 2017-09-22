@@ -13,7 +13,9 @@ function frameIt () {
 
 function pressIt () {
     $('#typing').on('keydown', function () {
-        if (key.which === )
+        if (key.which === 71) {
+            document.alert('The G key has been pressed');
+        }
     });
 }
 
